@@ -1,0 +1,17 @@
+python ../train.py \
+--gpu_ids 0 \
+--batch_size 8 \
+--checkpoints_dir /mnt/data_jixie1/chwang/ordinalnet3d/ \
+--dataset smci+pmci \
+--group smci+pmci \
+--workers 8 \
+--print_freq 1 \
+--save_epoch_freq 10 \
+--lr 0.0002 \
+--lr_policy exp \
+--epoch_count 60 \
+--cls_type resnet3d \
+--class_num 3 \
+--lr_decay 0.95 \
+--m 0.9 \
+--name HOPE_for_MCI
