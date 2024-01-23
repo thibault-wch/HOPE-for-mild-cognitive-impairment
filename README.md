@@ -1,7 +1,7 @@
 # HOPE-for-mild-cognitive-impairment
 
 **[JBHI 2024]** This is a code implementation of the **hybrid-granularity ordinal learning** proposed in the manuscript "**HOPE:
-Hybrid-granularity Ordinal Prototype Learning for Progression Prediction of Mild Cognitive Impairment**".
+Hybrid-granularity Ordinal Prototype Learning for Progression Prediction of Mild Cognitive Impairment**". [arxiv](https://arxiv.org/abs/2401.10966)
 
 ## Introduction
 
@@ -126,4 +126,17 @@ HOPE-for-mild-cognitive-impairment
 
 - Our code is inspired by [Blackbox Combinatorial Solvers](https://github.com/martius-lab/blackbox-backprop)
   and [RankSim](https://github.com/BorealisAI/ranksim-imbalanced-regression).
+
+
+## Citation
+If you find this work useful for your research, please 🌟 our project and cite [our paper](https://arxiv.org/abs/2401.10966) :
+
+```
+@article{wang2024hope,
+      title = {HOPE: Hybrid-granularity Ordinal Prototype Learning for Progression Prediction of Mild Cognitive Impairment}, 
+      author = {Chenhui Wang and Yiming Lei and Tao Chen and Junping Zhang and Yuxin Li and Hongming Shan and others},
+      year = {2024},
+      journal={IEEE Journal of Biomedical and Health Informatics},
+}
+```
 
