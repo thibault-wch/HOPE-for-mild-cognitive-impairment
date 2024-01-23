@@ -133,10 +133,10 @@ If you find this work useful for your research, please 🌟 our project and cite
 
 ```
 @article{wang2024hope,
-      title = {HOPE: Hybrid-granularity Ordinal Prototype Learning for Progression Prediction of Mild Cognitive Impairment}, 
-      author = {Chenhui Wang and Yiming Lei and Tao Chen and Junping Zhang and Yuxin Li and Hongming Shan and others},
-      year = {2024},
-      journal={IEEE Journal of Biomedical and Health Informatics},
+title = {HOPE: Hybrid-granularity Ordinal Prototype Learning for Progression Prediction of Mild Cognitive Impairment}, 
+author = {Chenhui Wang and Yiming Lei and Tao Chen and Junping Zhang and Yuxin Li and Hongming Shan and others},
+year = {2024},
+journal={IEEE Journal of Biomedical and Health Informatics},
 }
 ```
 
