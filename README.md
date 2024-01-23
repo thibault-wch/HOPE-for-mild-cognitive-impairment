@@ -1,7 +1,7 @@
 # HOPE-for-mild-cognitive-impairment
 
 **[JBHI 2024]** This is a code implementation of the **hybrid-granularity ordinal learning** proposed in the manuscript "**HOPE:
-Hybrid-granularity Ordinal Prototype Learning for Progression Prediction of Mild Cognitive Impairment**". [arxiv](https://arxiv.org/abs/2401.10966)
+Hybrid-granularity Ordinal Prototype Learning for Progression Prediction of Mild Cognitive Impairment**". [[arxiv]](https://arxiv.org/abs/2401.10966)
 
 ## Introduction
 
