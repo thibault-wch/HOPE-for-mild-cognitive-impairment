@@ -116,6 +116,7 @@ def train_data(model, total_cn_loader, total_ad_loader, total_mci_loader,
                 val_loss += loss.item()
                 y_val_true.extend(np.ravel(np.squeeze(labels.cpu().detach().numpy())).tolist())
                 y_val_pred.extend(np.ravel(np.squeeze(val_predicted.cpu().detach().numpy())).tolist())
+                outputs=outputs.softmax(dim=-1)
                 val_prob_all.extend(outputs[:, 1].cpu().detach().numpy())
 
         # loss logging
