@@ -29,6 +29,7 @@ def test_data(model, test_dataloaders, criterion):
             val_loss += loss.item()
             y_val_true.extend(np.ravel(np.squeeze(labels.cpu().detach().numpy())).tolist())
             y_val_pred.extend(np.ravel(np.squeeze(val_predicted.cpu().detach().numpy())).tolist())
+            outputs=outputs.softmax(dim=-1)
             val_prob_all.extend(outputs[:, 1].cpu().detach().numpy())
 
     # loss logging
